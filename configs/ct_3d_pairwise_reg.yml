@@ -1,0 +1,15 @@
+num_epochs: 3000
+epochs_til_ckpt: 100
+experiment_name: ct_3d_sine_random_218_reg
+reg_logging_root: ./
+lr: 0.001
+model_type: sine
+gaussian_scale: 1
+num_hidden_layers: 3
+steps_til_summary: 100
+sample_mtd: random
+sample_exp: 18
+image_dir: /mnt/hdd10t2/shanlin/data/DATA_017_ImgReg/original_spacing_data/img
+fixed_pid: OASIS-TRT-20-1
+moving_pid: OASIS-TRT-20-2
+# loss_type: image_mse
